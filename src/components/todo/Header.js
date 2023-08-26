@@ -9,10 +9,7 @@ function Header() {
 
     const isAuthenticated = authContext.isAuthenticated
 
-    // console.log(authContext);
-
     function handleMenu () {
-        console.log("clicked");
         menu?setMenu(false):setMenu(true);
     }
 
@@ -24,9 +21,8 @@ function Header() {
         <div>
             <nav className= " border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                    <Link to="#" className="flex items-center">
-                        <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo" />
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                    <Link to="/" className="flex items-center">
+                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">TodoApp</span>
                     </Link>
                     {
                      
