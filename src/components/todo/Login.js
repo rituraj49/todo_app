@@ -53,7 +53,7 @@ function Login() {
                             </label>
                             <input className="appearance-none block w-full bg-transparent text-gray-500  border-sky-600 border-b-2 rounded-xl py-3 px-4 mb-3 leading-tight focus:outline-none {/*focus:bg-gray-600*/}
                             focus:border-sky-300" 
-                            name="username" value={username}
+                            name="username" value="Terran"/*{username}*/
                             onChange={handleInput}
                             type="text" placeholder="Enter your username" />
                             
@@ -73,7 +73,7 @@ function Login() {
                             <input 
                             className="appearance-none block w-full bg-transparent text-gray-500  border-sky-600 border-b-2 rounded-xl py-3 px-4 mb-3 leading-tight focus:outline-none {/*focus:bg-gray-600*/} focus:border-sky-300" 
                             onChange={handleInputPassword}
-                            name="password" value={password}
+                            name="password" value="hello"/*{password}*/
                             type="password" placeholder="Enter your password" />
                             {
                                 warning2.length===0 &&
