@@ -94,7 +94,7 @@ function TodoComponent() {
 
   return (
     <div className=''>
-        <h1 className='text-center text-3xl bg-emerald-500'>Enter Todo Details</h1>
+        <h1 className='text-center text-3xl bg-emerald-500 ml-8 mr-8 rounded-md'>Enter Todo Details</h1>
 
         <Formik initialValues={{description, targetDate}}
           enableReinitialize = {true}
